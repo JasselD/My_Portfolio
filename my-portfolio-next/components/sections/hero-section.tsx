@@ -10,7 +10,7 @@ export function HeroSection() {
     "Software Developer",
     "Network and Cybersecurity",
     "Problem Solver",
-    "Vibe Coder :)",
+    "Chill dude :)",
   ]
 
   return (
@@ -58,7 +58,7 @@ export function HeroSection() {
         <ScrollReveal delay={0.3}>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
             Fresh graduate from Auckland University of Technology with a passion for 
-            building secure, elegant software solutions. Double Majoring in Software Development 
+            building secure, elegant software solution. Double Majoring in Software Development 
             and Cybersecurity.
           </p>
         </ScrollReveal>
