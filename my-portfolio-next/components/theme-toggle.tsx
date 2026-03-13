@@ -5,14 +5,16 @@ import { motion, AnimatePresence } from "framer-motion"
 import { useEffect, useState } from "react"
 
 export function ThemeToggle() {
-  const { theme, setTheme } = useTheme()
+  const { resolvedTheme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
   }, [])
 
-  if (!mounted) {
+  // Wait until we have a resolved theme so the first click toggles correctly
+  // (resolvedTheme can be undefined on first client render while next-themes hydrates)
+  if (!mounted || resolvedTheme === undefined) {
     return (
       <button className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-muted overflow-hidden">
         <span className="sr-only">Toggle theme</span>
@@ -20,7 +22,7 @@ export function ThemeToggle() {
     )
   }
 
-  const isDark = theme === "dark"
+  const isDark = resolvedTheme === "dark"
 
   return (
     <button
