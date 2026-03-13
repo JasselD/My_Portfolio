@@ -20,7 +20,7 @@ export function Footer() {
       </footer>
 
       {/* Floating social icons bottom-right */}
-      <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-[9999]">
+      <div className="hidden md:block fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-[9999]">
         <div className="flex items-center gap-3 bg-card/90 border border-border rounded-full px-3 py-2 shadow-lg backdrop-blur">
           <a
             href="https://github.com/JasselD"
