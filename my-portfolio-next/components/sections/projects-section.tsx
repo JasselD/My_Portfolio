@@ -2,46 +2,28 @@
 
 import { ScrollReveal } from "@/components/scroll-reveal"
 import { motion } from "framer-motion"
-import { ExternalLink, Github, Lock, Globe, Terminal, Database } from "lucide-react"
+import { ExternalLink, Github, Globe, Terminal } from "lucide-react"
 
 const projects = [
   {
-    title: "SecureChat",
-    description: "End-to-end encrypted messaging application with real-time communication. Built with security-first approach using modern cryptographic standards.",
-    image: "🔐",
-    tags: ["React", "Node.js", "WebSocket", "Cryptography"],
-    github: "https://github.com",
-    demo: "https://example.com",
-    icon: Lock,
-    color: "from-emerald-500/20 to-teal-500/20",
-  },
-  {
-    title: "VulnScanner",
-    description: "Automated vulnerability scanning tool for web applications. Detects common security issues including XSS, SQL injection, and CSRF vulnerabilities.",
-    image: "🛡️",
-    tags: ["Python", "Security", "REST API", "Docker"],
-    github: "https://github.com",
+    title: "BlackJack Game",
+    description:
+      "Command-line Blackjack game in Java implementing core rules, dealer AI, bust detection, and payout calculation. Designed with clean, reusable OOP components and clear separation of concerns.",
+    image: "🃏",
+    tags: ["Java", "OOP", "CLI", "Game Logic"],
+    github: "https://github.com/JasselD/BlackJack",
     icon: Terminal,
     color: "from-amber-500/20 to-orange-500/20",
   },
   {
-    title: "CloudDash",
-    description: "Full-stack dashboard for monitoring cloud infrastructure. Features real-time metrics, alerting system, and beautiful data visualizations.",
-    image: "☁️",
-    tags: ["Next.js", "TypeScript", "AWS", "Charts"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    title: "LectureSync.AI",
+    description:
+      "Full-stack web app that turns lecture audio into study materials (transcripts, summaries, quizzes) plus a note-focused AI chat assistant. Integrates multiple OpenAI models with a production-ready Next.js + PostgreSQL architecture.",
+    image: "🎧",
+    tags: ["Next.js", "React", "PostgreSQL", "OpenAI"],
+    github: "https://github.com/ali-sultani-dev/LectureSync_AI",
     icon: Globe,
     color: "from-blue-500/20 to-cyan-500/20",
-  },
-  {
-    title: "DataFlow",
-    description: "ETL pipeline management system with visual workflow builder. Enables non-technical users to create complex data transformations.",
-    image: "📊",
-    tags: ["Python", "PostgreSQL", "Redis", "React"],
-    github: "https://github.com",
-    icon: Database,
-    color: "from-purple-500/20 to-pink-500/20",
   },
 ]
 
@@ -57,7 +39,7 @@ export function ProjectsSection() {
             Projects
           </h2>
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16">
-            A selection of projects that showcase my skills in software development and cybersecurity
+            A selection of projects that showcase my skills in software development
           </p>
         </ScrollReveal>
 
