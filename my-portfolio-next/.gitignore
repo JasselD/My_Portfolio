@@ -36,6 +36,18 @@ yarn-error.log*
 # vercel
 .vercel
 
+# credentials / keys (extra safety)
+.npmrc
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials*.json
+serviceAccount*.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

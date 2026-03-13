@@ -4,7 +4,18 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 import { motion } from "framer-motion"
 import { ExternalLink, Github, Globe, Terminal } from "lucide-react"
 
-const projects = [
+type Project = {
+  title: string
+  description: string
+  image: string
+  tags: string[]
+  github: string
+  demo?: string
+  icon: typeof Terminal
+  color: string
+}
+
+const projects: Project[] = [
   {
     title: "BlackJack Game",
     description:
