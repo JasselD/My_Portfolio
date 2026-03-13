@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Fresh Graduate - Software Developer & Cybersecurity',
+  title: 'Portfolio: Jassel Doong',
   description: 'Fresh graduate from Auckland University of Technology with expertise in Software Development and Cybersecurity. Explore my projects, experience, and skills.',
   keywords: ['portfolio', 'software developer', 'cybersecurity', 'AUT', 'Auckland', 'fresh graduate'],
   authors: [{ name: 'Jassel Doong' }],
