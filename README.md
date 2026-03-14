@@ -2,7 +2,7 @@
 
 **[Check Out my Website] (https://my-portfolio-tau-smoky-10.vercel.app/)**
 
-Hey! This is the source code for my personal corner of the internet — a place to show off what I've built, what I know, and a little bit of who I am. I'm a software developer with a love for cybersecurity, and this site is my attempt to make a portfolio that doesn't look like every other portfolio. (Yes, there is a duck involved. No, I will not elaborate yet.)
+Hey! This is the source code for my personal corner of the internet, it's a place to show off what I've built, what I know, and a little bit of who I am. I'm a software developer with a love for cybersecurity, and this site is my attempt to make a portfolio. 
 
 ---
 
@@ -61,4 +61,4 @@ Hey! This is the source code for my personal corner of the internet — a place 
 
 ---
 
-*Thanks for stopping by — feel free to poke around the code, and don't forget to say hi to the duck 🦆*
+*Thanks for stopping by!!!*
